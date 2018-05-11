@@ -1,11 +1,13 @@
 void setup() {
   size(400, 400);
-  background(0);
 }
 
 void draw() {
+  background(0);
+  String git = "GitHub";
   textAlign(CENTER);
   fill(255,0,0);
   textSize(40);
-  text("Hello world", width/2, height/2 );
+  text(git, mouseX, mouseY );
+  
 }
